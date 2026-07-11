@@ -201,6 +201,8 @@ iwr -useb https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/i
 
 El instalador clona el repositorio en `~/.understand-anything/repo` y crea los enlaces simbólicos correspondientes para la plataforma elegida. Reinicia tu CLI/IDE al terminar.
 
+> **Nota sobre cómo invocar las skills:** el prefijo de invocación varía según la plataforma. La mayoría usa comandos con barra (`/understand`), pero **Codex usa `$`** — escribe `$understand`, no `/understand`. Si ningún prefijo funciona, pídelo en lenguaje natural: *«Usa la skill understand para analizar este proyecto»*.
+
 - Valores soportados de `<platform>`: `gemini`, `codex`, `opencode`, `pi`, `openclaw`, `antigravity`, `vibe`, `vscode`, `hermes`, `cline`, `kimi`, `nanobot`, `kiro`
 - Actualizar más adelante: `./install.sh --update`
 - Desinstalar: `./install.sh --uninstall <platform>`

@@ -201,6 +201,8 @@ iwr -useb https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/i
 
 安裝指令稿會將儲存庫複製到 `~/.understand-anything/repo`，並為所選平台建立相應的符號連結。安裝完成後請重新啟動 CLI 或 IDE。
 
+> **關於技能呼叫方式：** 不同平台的呼叫前綴不同。大多數平台使用斜線指令（`/understand`），但 **Codex 使用 `$`** —— 請輸入 `$understand`，而不是 `/understand`。如果兩種前綴都無法辨識，直接用自然語言請求即可：*「使用 understand 技能分析這個專案」*。
+
 - 支援的 `<platform>` 取值：`gemini`、`codex`、`opencode`、`pi`、`openclaw`、`antigravity`、`vibe`、`vscode`、`hermes`、`cline`、`kimi`、`nanobot`、`kiro`
 - 後續更新：`./install.sh --update`
 - 解除安裝：`./install.sh --uninstall <platform>`

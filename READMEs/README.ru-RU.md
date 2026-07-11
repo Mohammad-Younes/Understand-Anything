@@ -202,6 +202,8 @@ iwr -useb https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/i
 
 Установщик клонирует репозиторий в `~/.understand-anything/repo` и создаёт нужные симлинки для выбранной платформы. После установки перезапустите свой CLI/IDE.
 
+> **Как вызывать skills:** префикс вызова зависит от платформы. Большинство платформ используют слэш-команды (`/understand`), но **Codex использует `$`** — вводите `$understand`, а не `/understand`. Если ни один префикс не распознаётся, просто попросите обычным языком: *«Используй skill understand, чтобы проанализировать этот проект»*.
+
 - Поддерживаемые значения `<platform>`: `gemini`, `codex`, `opencode`, `pi`, `openclaw`, `antigravity`, `vibe`, `vscode`, `hermes`, `cline`, `kimi`, `nanobot`, `kiro`
 - Обновление: `./install.sh --update`
 - Удаление: `./install.sh --uninstall <platform>`

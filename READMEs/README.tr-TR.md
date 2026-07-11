@@ -202,6 +202,8 @@ iwr -useb https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/i
 
 Kurulum betiği depoyu `~/.understand-anything/repo` dizinine klonlar ve seçilen platform için uygun sembolik bağlantıları oluşturur. Sonrasında CLI/IDE'ni yeniden başlat.
 
+> **Skill çağırma hakkında not:** Çağırma öneki platforma göre değişir. Çoğu platform eğik çizgi komutları (`/understand`) kullanır, ancak **Codex `$` kullanır** — `/understand` değil, `$understand` yaz. İki önek de tanınmıyorsa doğal dille iste: *"understand skill'ini kullanarak bu projeyi analiz et."*
+
 - Desteklenen `<platform>` değerleri: `gemini`, `codex`, `opencode`, `pi`, `openclaw`, `antigravity`, `vibe`, `vscode`, `hermes`, `cline`, `kimi`, `nanobot`, `kiro`
 - Daha sonra güncelle: `./install.sh --update`
 - Kaldır: `./install.sh --uninstall <platform>`
